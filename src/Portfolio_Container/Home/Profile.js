@@ -1,22 +1,30 @@
 import React from "react";
 import Typical from "react-typical";
+import "./Profile.css";
 
 export default function Profile() {
   return (
     <div className="profile_container">
-      This site is in constant development, Please check after some days 😀
       <div className="profile_parent">
         <div className="profile_details">
           <div className="colz">
-            <a href="https://twitter.com/InzamamSayyed3">
-              <i className="fa fa-twitter-square"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/inzamam-sayyed-601120198/">
-              <i className="fa fa-linkedin-square"></i>
-            </a>
-            <a href="https://github.com/inzamam1">
-              <i className="fa fa-github-square"></i>
-            </a>
+            <div className="colz_icon">
+              <a href="https://twitter.com/InzamamSayyed3">
+                <i className="fa fa-twitter-square"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/inzamam-sayyed-601120198/">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a href="https://github.com/inzamam1">
+                <i className="fa fa-github-square"></i>
+              </a>
+            </div>
+          </div>
+          <div className="profile_details_name">
+            <span className="primary_text">
+              {""}
+              Hello I am <span className="highlighted_text">Inzamam</span>
+            </span>
           </div>
           <div className="profile_details_role">
             <span className="primary_text">
@@ -26,17 +34,18 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Developer",
-                    1000,
+                    "Software engineer",
+                    2000,
                     "Security enthusiast ",
-                    1000,
-                    "Full Stack dev",
-                    1000,
+                    2000,
+                    "Full Stack developer",
+                    2000,
                   ]}
                 />
               </h1>
               <span className="profile_role_tagline">
-                Commitment and Curiosity
+                Commitment and Curiosity - This site is in constant development
+                Please check after some days 😀
               </span>
             </span>
           </div>
@@ -48,6 +57,9 @@ export default function Profile() {
               <button className="btn primary-btn">Resume</button>
             </a>
           </div>
+        </div>
+        <div className="profile_picture">
+          <div className="profile_picture_background"></div>
         </div>
       </div>
     </div>
