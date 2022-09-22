@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import "./Resume.css";
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -174,8 +175,9 @@ export default function Resume(props) {
         <img
           className="bullet-logo"
           src={require(`../../assets/Resume/${bullet.logoSrc}`)}
-          alt="oops, no internet connection"
+          alt=""
         />
+        <span className="bullet-label">{bullet.label}</span>
       </div>
     ));
   };
