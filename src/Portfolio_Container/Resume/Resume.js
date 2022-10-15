@@ -21,8 +21,8 @@ export default function Resume(props) {
           <div className="heading-bullet">
             <span>{props.heading ? props.heading : ""}</span>
             {props.fromDate && props.toDate ? (
-              <div children="heading-date">
-                {props.fromDate + "_" + props.toDate}
+              <div className="heading-date">
+                {props.fromDate + "-" + props.toDate}
               </div>
             ) : (
               <div></div>
@@ -41,9 +41,10 @@ export default function Resume(props) {
 
   const resumeBullets = [
     { label: "Education", logoSrc: "education.svg" },
-    { label: "Work History", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
+    { label: "Work History", logoSrc: "work-history.svg" },
+
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
@@ -76,24 +77,56 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"KLE Technological University, India"}
+        description={"GPA: 9.02/10"}
         subHeading={"Bachelors of Engineering"}
         fromDate={"2017"}
         toDate={"2021"}
       />
       <ResumeHeading
         heading={"Expert Pre University College"}
-        subHeading={"PUC"}
+        subHeading={"Pre University"}
         fromDate={"2015"}
         toDate={"2017"}
+        description={"Grade:89.82%"}
       />
       <ResumeHeading
         heading={"St Marys High School"}
         subHeading={"High School"}
         fromDate={"2012"}
         toDate={"2015"}
+        description={"Grade:92%"}
       />
     </div>,
-    <div className="resume-screen-container" key="work-experience">
+    <div
+      className="resume-screen-container programming-skills-container"
+      key="programming-skills"
+    >
+      {programmingSkillDetails.map((skill, index) => (
+        <div className="'skill-parent" key={index}>
+          <div className="heading-bullet"></div>
+          <span>{skill.skill}</span>
+          <div className="skill-pecentage">
+            <div
+              style={{ width: skill.ratingPercentage + "%" }}
+              className="active-percentage"
+            ></div>
+          </div>
+        </div>
+      ))}
+    </div>,
+    <div className="resume-screen-container" key="projects">
+      {projectDetails.map((projectDetails, index) => (
+        <ResumeHeading
+          key={index}
+          heading={projectDetails.title}
+          subHeading={projectDetails.subHeading}
+          description={projectDetails.description}
+          fromDate={projectDetails.duration.fromDate}
+          toDate={projectDetails.duration.toDate}
+        />
+      ))}
+    </div>,
+    <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Twilio"}
         subHeading={"Techinial Developer suppport"}
@@ -106,7 +139,7 @@ export default function Resume(props) {
         </span>
       </div>
       <div className="experience-description">
-        <span className="resume-description-text">-Working on Rest API</span>
+        <span className="resume-description-text">Working on Rest API</span>
         <br />
         <span className="resume-description-text">
           -Supporting users to use products
@@ -114,43 +147,11 @@ export default function Resume(props) {
         <br />
         <span className="resume-description-text">-learning products</span>
       </div>
-      ,
-      <div
-        className="resume-screen-container programming-skills-container"
-        key="programming-skills"
-      >
-        {programmingSkillDetails.map((skill, index) => (
-          <div className="'skill-parent" key={index}>
-            <div className="heading-bullet"></div>
-            <span>{skill.skill}</span>
-            <div className="skill-pecentage">
-              <div
-                style={{ width: skill.ratingPercentage + "%" }}
-                className="active-percentage"
-              ></div>
-            </div>
-          </div>
-        ))}
-      </div>
-      ,
-      <div className="resume-screen-container" key="projects">
-        {projectDetails.map((projectDetails, index) => (
-          <ResumeHeading
-            key={index}
-            heading={projectDetails.title}
-            subHeading={projectDetails.subHeading}
-            description={projectDetails.description}
-            fromDate={projectDetails.duration.fromDate}
-            toDate={projectDetails.duration.toDate}
-          />
-        ))}
-      </div>
-      ,
-      <div className="resume-screen-container" key="interests">
-        <ResumeHeading heading="Gardening" description="plants plants " />
-        <ResumeHeading heading="D i Y" description="led led " />
-        <ResumeHeading heading="Neon" description="plants plants " />
-      </div>
+    </div>,
+    <div className="resume-screen-container" key="interests">
+      <ResumeHeading heading="Gardening" description="plants plants " />
+      <ResumeHeading heading="D i Y" description="led led " />
+      <ResumeHeading heading="Neon" description="plants plants " />
     </div>,
   ];
 
