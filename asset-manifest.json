@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d4ebb1b8.css",
-    "main.js": "/portfolio/static/js/main.782b57bb.js",
+    "main.css": "/portfolio/static/css/main.c2505a4c.css",
+    "main.js": "/portfolio/static/js/main.9851f571.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG_1674.JPG": "/portfolio/static/media/IMG_1674.5d15333b71642f4d9440.JPG",
     "static/media/Poppins-Thin.ttf": "/portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -13,6 +13,7 @@
     "static/media/Poppins-Bold.ttf": "/portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/lady.png": "/portfolio/static/media/lady.2c54ef6a69cfe97e520f.png",
+    "static/media/mailz.jpeg": "/portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
     "static/media/bg.svg": "/portfolio/static/media/bg.44454776f723bc30df71.svg",
     "index.html": "/portfolio/index.html",
     "static/media/programming-skills.svg": "/portfolio/static/media/programming-skills.d19983a9bee884277ffa.svg",
@@ -20,12 +21,12 @@
     "static/media/interests.svg": "/portfolio/static/media/interests.809890a3e4fb0938f61b.svg",
     "static/media/education.svg": "/portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
-    "main.d4ebb1b8.css.map": "/portfolio/static/css/main.d4ebb1b8.css.map",
-    "main.782b57bb.js.map": "/portfolio/static/js/main.782b57bb.js.map",
+    "main.c2505a4c.css.map": "/portfolio/static/css/main.c2505a4c.css.map",
+    "main.9851f571.js.map": "/portfolio/static/js/main.9851f571.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4ebb1b8.css",
-    "static/js/main.782b57bb.js"
+    "static/css/main.c2505a4c.css",
+    "static/js/main.9851f571.js"
   ]
 }
