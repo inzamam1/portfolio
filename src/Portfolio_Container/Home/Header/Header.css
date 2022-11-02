@@ -28,6 +28,7 @@
   font-size: 16px;
   cursor: pointer;
   font-weight: 600;
+  margin: 0 50px 0 0;
 }
 
 .header-hamburger {
@@ -35,10 +36,6 @@
   color: var(--white);
 }
 
-.header-option-seperator {
-  margin: 0 50px 0 0;
-  color: var(--white);
-}
 .selected-header-option {
   color: #ff5823;
 }

@@ -23,20 +23,16 @@ export default function Header() {
     return TOTAL_SCREENS.map((screen, i) => (
       <div
         key={screen.screen_name}
-        className={getHeaderOptionsClass(i)}
+        className={
+          i === selectedScreen
+            ? "header-option selected-header-option"
+            : "header-option "
+        }
         onClick={() => switchScreen(i, screen)}
       >
         <span>{screen.screen_name}</span>
       </div>
     ));
-  };
-
-  const getHeaderOptionsClass = (index) => {
-    let classes = "header-option";
-    if (index < TOTAL_SCREENS.length - 1) classes += "header-option-seperator";
-
-    if (selectedScreen === index) classes += "selected-header-option";
-    return;
   };
 
   const switchScreen = (index, screen) => {
@@ -72,7 +68,7 @@ export default function Header() {
           >
             {getHeaderOptions()}
           </div>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );
