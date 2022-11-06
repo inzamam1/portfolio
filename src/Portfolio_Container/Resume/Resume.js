@@ -49,27 +49,31 @@ export default function Resume(props) {
   ];
 
   const programmingSkillDetails = [
-    { skill: "Javascript", ratingPercentage: 80 },
-    { skill: "React Js", ratingPercentage: 85 },
-    { skill: "React Js", ratingPercentage: 30 },
-    { skill: "React Js", ratingPercentage: 35 },
-    { skill: "React Js", ratingPercentage: 85 },
-    { skill: "React Js", ratingPercentage: 85 },
-    { skill: "React Js", ratingPercentage: 85 },
+    { skill: "Python Programming" },
+    { skill: "Javascript" },
+    { skill: "React Js" },
+    { skill: "Machine Learing" },
+    { skill: "Alexa Skils Kit" },
+    { skill: "AWS Lambda" },
+    { skill: "Full Stack Development" },
   ];
 
   const projectDetails = [
     {
-      title: "DIfferential Neuroplasticity",
+      title:
+        "IMAGE RECONSTRUCTION USING NEUROMODULATION ON DIFFERENTIAL PLASTICITY",
       duration: { fromDate: "2020", toDate: "2021" },
-      description: "Hebbian plasticity on RNNs",
+      description:
+        "Optimizing Recurrent Neural Networks to suite meta-learning process.Induction of Hebbian trace coupled with Neuromodulation to efficiently reconstruct degraded 2D images",
+
       subHeading: "Technologies Used:RNN, Deep Learning",
     },
     {
-      title: "DIfferential Neuroplasticity",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description: "Hebbian plasticity on RNNs",
-      subHeading: "Technologies Used:RNN, Deep Learning",
+      title: "STABILITY OF GENERATIVE ADVERSARIAL NETWORKS",
+      duration: { fromDate: "2019", toDate: "2020" },
+      description:
+        "Discounting the mode collapse adversity of the Generative Adversarial Networks(GAN's).The machine learning model thus is enhanced to learn and generate variety of images ",
+      subHeading: "Technologies Used:CNN, Deep Learning, GAN",
     },
   ];
 
@@ -129,29 +133,46 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Twilio"}
-        subHeading={"Techinial Developer suppport"}
+        subHeading={"Technical Support Engineer - Developer"}
         fromDate={"2022"}
         toDate={"present"}
       />
       <div className="experience-description">
         <span className="resume-description-text">
-          Hello i am a developer support engineer
+          Twilio Developer Support
         </span>
       </div>
       <div className="experience-description">
-        <span className="resume-description-text">Working on Rest API</span>
-        <br />
         <span className="resume-description-text">
-          -Supporting users to use products
+          -Troubleshooting issues related to Twilio Rest API's
         </span>
         <br />
-        <span className="resume-description-text">-learning products</span>
+        <span className="resume-description-text">
+          -Maintaining an overall CSAT of 4.5/5 by solving queries
+        </span>
+        <br />
+        <span className="resume-description-text">
+          -Ensuring no SLA is breached while handling queries
+        </span>
+        <br />
+        <span className="resume-description-text">
+          -Broadning horizon by learining new Technologies
+        </span>
       </div>
     </div>,
     <div className="resume-screen-container" key="interests">
-      <ResumeHeading heading="Gardening" description="plants plants " />
-      <ResumeHeading heading="D i Y" description="led led " />
-      <ResumeHeading heading="Neon" description="plants plants " />
+      <ResumeHeading
+        heading="Gardening"
+        description="Gardening has been my go-to hobby as it teaches patience and long term benifits"
+      />
+      <ResumeHeading
+        heading="LED NEON signs"
+        description="I took up the hobby of building custom neon sign boards during the pandemic. My hobby attracted many people who wanted to get a custom board created and I took this up as a business for pocket money"
+      />
+      <ResumeHeading
+        heading="Numismatics"
+        description="I have been fond of collecting old items and coins in particular excite me to know the rich heritage of a place and collecting them excites me "
+      />
     </div>,
   ];
 
