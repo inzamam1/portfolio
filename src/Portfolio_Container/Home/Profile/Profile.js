@@ -44,8 +44,8 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile_role_tagline">
-                Commitment and Curiosity - This site is in constant development
-                Please check after some days 😀
+                As long as I have a want, I have a reason for living,
+                Satisfaction is death - Bernard Shaw
               </span>
             </span>
           </div>
