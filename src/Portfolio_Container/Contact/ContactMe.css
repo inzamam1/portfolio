@@ -1,19 +1,21 @@
 .main-container {
-  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: fit-content;
+  margin: 120px 0;
 }
 
 .central-form {
   max-width: 1100px;
   padding: 10px;
-  display: flex;
   border-radius: 12px;
-  margin: 0 auto;
-  flex-direction: column;
-  justify-content: center;
   background-color: #1f2235;
 }
 
 .central-form h2 {
+  text-align: center;
   color: white;
   letter-spacing: 0.2rem;
   margin-bottom: 20px;
@@ -28,99 +30,15 @@
   margin-bottom: 20px;
 }
 
-.img-back h4 {
-  color: white;
-  letter-spacing: 0.3 rem;
-  font-weight: 400;
-  font-size: 18px;
-  opacity: 0.5;
-}
-
 .back-form .img-back img {
   width: 100%;
   opacity: 0.5;
 }
 
-.central-form form {
-  width: auto;
-  display: flex;
-  color: black;
-  padding: 15px;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: -52px;
-  background-color: white;
-  border-radius: 12px;
-}
-
-form p {
-  text-align: center;
-  margin-bottom: 10px;
-  color: darkorange;
-  letter-spacing: 0.4rem;
-  font-family: "Poppins Bold";
-}
-
-form label {
-  margin-bottom: 5px;
-  color: black;
-  letter-spacing: 0.2rem;
-}
-
-form input,
-textarea {
-  width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0);
-  outline: none;
-  background-color: rgba(230, 230, 230, 0.6);
-  padding: 0.5rem 1rem;
-  font-size: 1.1rem;
-  margin-bottom: 22px;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-textarea:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: white;
-}
-input:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: white;
-}
-
-form button {
-  margin-top: 15px;
-  padding: 5px;
-  outline: none;
-  width: 160px;
-  border: 2px solid darkorange;
-  font-size: 15px;
-  border-radius: 19px;
-  background-color: #1f2235;
-  align-items: center;
-  color: white;
-  justify-content: center;
-}
-
-form button:hover {
-  background-color: #1f2235;
-  transition: all ease 1s;
-  border: 2px solid #1f2235;
-}
-
-.img-back {
-  flex: 1;
-  align-self: center;
-  margin-right: 20px;
-}
-
-form {
-  flex: 0.9;
-}
-
 .col i {
-  padding: 7px;
+  position: relative;
+  left: 46.5%;
+  letter-spacing: 1rem;
   color: white;
 }
 .col i:hover {
@@ -141,13 +59,4 @@ form {
   flex: 1;
   align-self: center;
   margin-right: 20px;
-}
-
-form {
-  flex: 0.9;
-}
-
-button .load img {
-  width: 60px;
-  color: green;
 }
