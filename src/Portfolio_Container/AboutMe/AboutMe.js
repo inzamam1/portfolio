@@ -15,21 +15,14 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Hey there, thank you for checking into my website a b ckkdkkdkfjkdfjajioafiodjfd j jfdakjkdajskljklajkl ajdka jfklasdjfjdsklfjdsklfjjkfj kdfjdkf idfksdafkajadfjksl dfsjkl dskldf dksf  fdsaskl  adsk fakl kdjfkl askdsjf kadsj",
+      "Hey There, Thank you for visiting my Portfolio Website. As a child I loved seeing how things work. From dismantling entire toy car to see the mechanism employed to building a self-propelled toy boat. This love for technology cultivated through my days in school and I opted for Computer science electives to further expand my technical knowledge base. Thus, studying Computer science engineering was only a natural progression.",
     highlights: {
       bullets: [
         "Full Stack Developer",
-        "TSE-Developer at Twilio",
-        "Full Stack Developer",
-        "TSE-Developer at Twilio",
-        "Full Stack Developer",
-        "TSE-Developer at Twilio",
-        "Full Stack Developer",
-        "TSE-Developer at Twilio",
-        "Full Stack Developer",
-        "TSE-Developer at Twilio",
-        "Full Stack Developer",
-        "TSE-Developer at Twilio",
+        "Currently working as TSE-Developer at Twilio",
+        "Machine learning",
+        "Published 2 research papers on Image processing in Internation Conferences",
+        "Enthusiastic about technology",
       ],
       heading: "Here are a Few Highlights:",
     },
