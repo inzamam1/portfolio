@@ -5,7 +5,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import Pro1 from "../../assets/Testimonial/lady.png";
+import Pro1 from "../../assets/Testimonial/Pro1.png";
+import Pro2 from "../../assets/Testimonial/Pro2.png";
 import "./Testimonial.css";
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -55,14 +56,19 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Professor 1 - To be filled
+                      I have witnessed Inzamam transform from a naive innovative
+                      thinker to a well-organized resercher, assiduously
+                      improving his technical skills and seeking every
+                      constructive criticism as an opportunity to explore new
+                      horizons.
                       <i className="fa fa-quote-right" />
                     </p>
                   </div>
                   <div className="client-info">
-                    <img src={Pro1} alt="no-internet-connection"></img>
-                    <h5>Pro 1</h5>
-                    <p>Professor</p>
+                    <img src={""} alt="no-internet-connection"></img>
+                    <h5>Dr.Meena S M</h5>
+                    <p>HOD,Dept of Computer Science</p>
+                    <p>KLE Technological University</p>
                   </div>
                 </div>
               </div>
@@ -72,14 +78,38 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Professor 2 - To be filled
+                      An Ambitious learner, hardworking student is how I would
+                      Personify my student. Inzamam has excellent organizational
+                      skill, he is able to successfully complete multiple tasks
+                      with the favorable results despite deadline pressure.
                       <i className="fa fa-quote-right" />
                     </p>
                   </div>
                   <div className="client-info">
                     <img src={Pro1} alt="no-internet-connection"></img>
-                    <h5>Pro 2</h5>
+                    <h5>Dr.Sunita Hiremath</h5>
                     <p>Professor</p>
+                    <p>KLE Technological University</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      Inzamam possesses an unparalleled ability of grasping
+                      fundamentals, always ready to try his hand on new things
+                      and always finds himself on the learning curve
+                      <i className="fa fa-quote-right" />
+                    </p>
+                  </div>
+                  <div className="client-info">
+                    <img src={Pro2} alt="no-internet-connection"></img>
+                    <h5>Sunil.V.Gurlahosur</h5>
+                    <p>Asst.Professor</p>
+                    <p>KLE Technological University</p>
                   </div>
                 </div>
               </div>
