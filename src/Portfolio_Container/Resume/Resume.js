@@ -138,25 +138,30 @@ export default function Resume(props) {
         toDate={"present"}
       />
       <div className="experience-description">
-        <span className="resume-description-text">
-          Twilio Developer Support
-        </span>
+        <span className="resume-description-text">Tasks</span>
       </div>
       <div className="experience-description">
         <span className="resume-description-text">
-          -Troubleshooting issues related to Twilio Rest API's
+          -Working and familiarizing with communication systems, REST API,
+          WebRTC, Web Application Development
         </span>
         <br />
         <span className="resume-description-text">
-          -Maintaining an overall CSAT of 4.5/5 by solving queries
+          -Solving Developer issues related to 8 different Twilio Products for
+          Asia-Pacific-Japan region
         </span>
         <br />
         <span className="resume-description-text">
-          -Ensuring no SLA is breached while handling queries
+          -Assisting developers and customers with complex technical issues
         </span>
         <br />
         <span className="resume-description-text">
-          -Broadning horizon by learining new Technologies
+          -Reviewing and debugging customer code and troubleshooting
+        </span>
+        <br />
+        <span className="resume-description-text">
+          -Building solution for the customer on 6 different programming
+          languages and for 3 different platforms(Web, IOS, Android)
         </span>
       </div>
     </div>,
@@ -167,7 +172,7 @@ export default function Resume(props) {
       />
       <ResumeHeading
         heading="LED NEON signs"
-        description="I took up the hobby of building custom neon sign boards during the pandemic. My hobby attracted many people who wanted to get a custom board created and I took this up as a business for pocket money"
+        description="I took up the hobby of building custom neon sign boards during the pandemic. My hobby attracted many people who wanted to get a custom board created and I further encorporated this as an in-house business"
       />
       <ResumeHeading
         heading="Numismatics"
