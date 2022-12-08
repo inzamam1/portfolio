@@ -36,7 +36,7 @@ export default function Profile() {
                   steps={[
                     "Software engineer",
                     2000,
-                    "Security enthusiast ",
+                    "Cyber-Security enthusiast ",
                     2000,
                     "Full Stack developer",
                     2000,
@@ -51,7 +51,7 @@ export default function Profile() {
           </div>
           <div className="profile_options">
             <a
-              href="https://drive.google.com/file/d/1iwiSZlTu4U7OJ4IeHtS0EzvxWmxrc0Xe/view?usp=sharing"
+              href="https://drive.google.com/file/d/1SwX4p2E4O5lf8VZUqp39KZ4VdQwFQ45t/view?usp=share_link"
               download="in.pdf"
             >
               <button className="btn primary-btn">Resume</button>
