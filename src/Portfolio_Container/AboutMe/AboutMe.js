@@ -21,7 +21,7 @@ export default function AboutMe(props) {
         "Full Stack Developer",
         "Currently working as TSE-Developer at Twilio",
         "Machine learning",
-        "Published 2 research papers on Image processing in Internation Conferences",
+        "Published 2 research papers on Image processing in International Conferences",
         "Enthusiastic about technology",
       ],
       heading: "Here are a Few Highlights:",
