@@ -7,6 +7,8 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import Pro1 from "../../assets/Testimonial/Pro1.png";
 import Pro2 from "../../assets/Testimonial/Pro2.png";
+import Pro3 from "../../assets/Testimonial/Pro3.png";
+
 import "./Testimonial.css";
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -65,7 +67,7 @@ export default function Testimonial(props) {
                     </p>
                   </div>
                   <div className="client-info">
-                    <img src={""} alt="no-internet-connection"></img>
+                    <img src={Pro3} alt="no-internet-connection"></img>
                     <h5>Dr.Meena S M</h5>
                     <p>HOD,Dept of Computer Science</p>
                     <p>KLE Technological University</p>
