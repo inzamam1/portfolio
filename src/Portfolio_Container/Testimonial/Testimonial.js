@@ -115,23 +115,6 @@ export default function Testimonial(props) {
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      Professor 3- To be filled
-                      <i className="fa fa-quote-right" />
-                    </p>
-                  </div>
-                  <div className="client-info">
-                    <img src={Pro1} alt="no-internet-connection"></img>
-                    <h5>Pro 3</h5>
-                    <p>Professor</p>
-                  </div>
-                </div>
-              </div>
             </OwlCarousel>
           </div>
         </div>
