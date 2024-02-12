@@ -19,10 +19,10 @@ export default function AboutMe(props) {
     highlights: {
       bullets: [
         "Full Stack Developer",
-        "Currently working as TSE-Developer at Twilio",
+        "Currently working as TSE-2-Developer at Twilio",
         "Machine learning",
         "Published 2 research papers on Image processing in International Conferences",
-        "Enthusiastic about technology",
+        "Tech-enthusiast",
       ],
       heading: "Here are a Few Highlights:",
     },
