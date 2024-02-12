@@ -8,6 +8,8 @@ import Animations from "../../utilities/Animations";
 import Pro1 from "../../assets/Testimonial/Pro1.png";
 import Pro2 from "../../assets/Testimonial/Pro2.png";
 import Pro3 from "../../assets/Testimonial/Pro3.png";
+import Balu from "../../assets/Testimonial/Balu.jpeg";
+import Yamu from "../../assets/Testimonial/Yamu.jpeg";
 
 import "./Testimonial.css";
 export default function Testimonial(props) {
@@ -43,7 +45,7 @@ export default function Testimonial(props) {
     <div>
       <ScreenHeading
         title={"Testimonial"}
-        subHeading={"What my teachers Say About Me"}
+        subHeading={"What my Mentors Say About Me"}
       />
       <section className="testimonial-section" id={props.id || ""}>
         <div className="container">
@@ -53,6 +55,28 @@ export default function Testimonial(props) {
               id="testimonial-carousel"
               {...options}
             >
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      As his direct manager, I've noticed him expressing desire
+                      in learning and upskilling himself, and he's earned his
+                      position as a Technical Support Engineer due to his
+                      enthusiasm and drive for professional advancement. I have
+                      watched Inzamam develop into a confident and capable
+                      individual.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                  </div>
+                  <div className="client-info">
+                    <img src={Yamu} alt="no-internet-connection"></img>
+                    <h5>Yamuna Ganga</h5>
+                    <p>Manager, Technical Support</p>
+                    <p>Twilio</p>
+                  </div>
+                </div>
+              </div>
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
@@ -69,8 +93,31 @@ export default function Testimonial(props) {
                   <div className="client-info">
                     <img src={Pro3} alt="no-internet-connection"></img>
                     <h5>Dr.Meena S M</h5>
-                    <p>HOD,Dept of Computer Science</p>
+                    <p>Dean-FSC,School of Computer Science and Engineering</p>
                     <p>KLE Technological University</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      Inzamam is extremely responsible; not only is he
+                      accountable for his own KPIs but as a tenured member in
+                      the team he coaches the new team members and assists them
+                      with other issues they may have. He has never hesitated in
+                      helping his peers across multiple regions.I can always
+                      rely on him with the tasks assigned and can be sure that
+                      he will drive it to completion.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                  </div>
+                  <div className="client-info">
+                    <img src={Balu} alt="no-internet-connection"></img>
+                    <h5>Balu Vasudevan</h5>
+                    <p>Manager, Technical Support</p>
+                    <p>Twilio</p>
                   </div>
                 </div>
               </div>
