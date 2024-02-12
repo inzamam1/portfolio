@@ -133,7 +133,7 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Twilio"}
-        subHeading={"Technical Support Engineer - Developer"}
+        subHeading={"Technical Support Engineer- 2 - Developer"}
         fromDate={"2022"}
         toDate={"present"}
       />
@@ -157,6 +157,14 @@ export default function Resume(props) {
         <br />
         <span className="resume-description-text">
           -Reviewing and debugging customer code and troubleshooting
+        </span>
+        <br />
+        <span className="resume-description-text">
+          -Grading assessments for new hires
+        </span>
+        <br />
+        <span className="resume-description-text">
+          -Onboarding new hires and training them on the products.
         </span>
         <br />
         <span className="resume-description-text">
